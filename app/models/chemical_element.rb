@@ -1,0 +1,2 @@
+class ChemicalElement < ApplicationRecord
+end
