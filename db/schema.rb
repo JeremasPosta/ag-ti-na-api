@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 2021_05_02_130514) do
     t.integer "atomic_number"
     t.string "name"
     t.string "symbol"
-    t.string "group"
+    t.string "groupe"
     t.string "period"
     t.string "atomic_weight"
     t.string "density"
@@ -27,7 +27,7 @@ ActiveRecord::Schema.define(version: 2021_05_02_130514) do
     t.string "boiling_point"
     t.string "year_of_discovery"
     t.string "discovered_by"
-    t.boolean "is_radioactive"
+    t.string "is_radioactive"
     t.string "specific_heat_capacity"
     t.string "electro_negativity"
     t.string "abundance_in_earth"
@@ -35,7 +35,7 @@ ActiveRecord::Schema.define(version: 2021_05_02_130514) do
     t.string "oxidation_state"
     t.string "metal_class"
     t.string "ionization_energy"
-    t.boolean "double_checked_info"
+    t.string "double_checked_info"
     t.text "other_info"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
