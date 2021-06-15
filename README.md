@@ -1,6 +1,6 @@
 # Ag-Ti-Na-api
 
-Esta Api devuelve información en español sobre los elementos químicos de la tabla periódica.
+Esta Api devuelve información en Español sobre los elementos químicos de la tabla periódica.
 Por el momento, se encuentra la información básica, por lo que para algunos campos, retorna NULL.
 
 El modo de solicitar la informacion es por medio de:
